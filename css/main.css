@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter {
+    margin: auto;
+    width: calc(100% - 135px);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    margin: 0;
+    font-family: 'Inter';
+}
+
+header h1 {
+    color: #000;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+header nav {
+    padding: 15px 0%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+header nav ul li a,
+.slide_left ul a {
+    color: #101928;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav ul .home {
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+}
+
+header .ser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+header .box {
+    padding: 0 12px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+header .box span {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+header .box img {
+
+    width: 24px;
+    height: 24px;
+}
+
+header .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 32px;
+    height: 32;
+}
+
+.slide {
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slide .row {
+    gap: 10px;
+}
+
+.slide_left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.slide_left ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slide_left ul li {
+    margin-left: 0;
+}
+
+.slide_right {
+    padding: 3px;
+    width: 792px;
+    height: 344px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.slide_right .logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.slide_right .logo_abo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px ;
+    margin-left: 0;
+
+}
+.slide_right .logo_abo img {
+    width: 40px;
+height: 49px;
+}
+
+.slide_right .logo_abo span{
+    color:  #fafafa;
+text-align: center;
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.slide_right .logo h2 {
+    color: #FAFAFA;
+margin-left: 0;
+font-family: 'Inter';
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 61px;
+
+}
+.slide_right .logo a{
+    margin-left: 0;
+    color: #FAFAFA;
+text-align: center;
+font-family: 'Poppins';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+text-decoration: underline ;
+}
+.slide_right .photo {
+    overflow: hidden;
+}
+.slide_right .photo img  {
+    width: 390px;
+}
